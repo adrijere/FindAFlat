@@ -1,9 +1,9 @@
 <template>
-  <select>
+  <b-form-select v-model="typePlace" class="mb-3">
     <option value="appartement">Appartement</option>
     <option value="résidence">Résidence</option>
     <option value="colocation">Colocation</option>
-  </select>
+  </b-form-select>
 </template>
 
 <script>
@@ -11,6 +11,7 @@ export default {
   name: 'Searchbar',
   data () {
     return {
+        typePlace: ''
     }
   }
 }
