@@ -1,8 +1,10 @@
 <template>
   <div>
 <h1>Welcome here buddy !</h1>
-  <p>If you're here, you're looking for a flat. You wanna rent a room or a complete flat in Lille for your Erasmus. <br/>
-  You're <strong>definitely</strong> on the good platform.</p>
+  <p>If you are here, you're looking for a flat. You wanna rent a room or a complete flat in Lille for your Erasmus. <br/>
+  You're <strong>definitely</strong> on the good platform.<br/>
+  You can filter your research with the search bar and find the place of your dream. When you found a place you like, you just
+  have to click on it and you'll have all informations you need !</p>
 
     <searchbar></searchbar>
     <div class="row">

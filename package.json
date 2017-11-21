@@ -8,12 +8,12 @@
     "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
     "start": "npm run dev",
     "unit": "jest test/unit/specs --coverage",
-
     "test": "npm run unit",
     "lint": "eslint --ext .js,.vue src test/unit/specs",
     "build": "node build/build.js"
   },
   "dependencies": {
+    "bootstrap-vue": "^1.2.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -77,10 +77,12 @@
       "^.+\\.js$": "<rootDir>/node_modules/babel-jest",
       ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest"
     },
-    "setupFiles": ["<rootDir>/test/unit/setup"],
+    "setupFiles": [
+      "<rootDir>/test/unit/setup"
+    ],
     "mapCoverage": true,
     "coverageDirectory": "<rootDir>/test/unit/coverage",
-    "collectCoverageFrom" : [
+    "collectCoverageFrom": [
       "src/**/*.{js,vue}",
       "!src/main.js",
       "!src/router/index.js",

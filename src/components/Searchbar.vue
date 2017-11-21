@@ -1,8 +1,8 @@
 <template>
-  <b-form-select v-model="typePlace" class="mb-3">
-    <option value="appartement">Appartement</option>
-    <option value="résidence">Résidence</option>
-    <option value="colocation">Colocation</option>
+  <b-form-select v-model="typePlace">
+    <option value="flat">Flat</option>
+    <option value="residence">Residence</option>
+    <option value="houseShare">House share</option>
   </b-form-select>
 </template>
 
