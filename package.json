@@ -15,6 +15,7 @@
   "dependencies": {
     "bootstrap-vue": "^1.2.0",
     "express": "^4.16.2",
+    "mongoose": "^4.13.6",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
